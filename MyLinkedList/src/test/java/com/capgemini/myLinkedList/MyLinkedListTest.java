@@ -94,5 +94,22 @@ public class MyLinkedListTest {
 		myLinkedList.printNodes();
 		boolean result = myLinkedList.head.getNext().getNext().equals(newNode);
 		Assert.assertTrue(result);  
-	}
+	} 
+	
+	
+	@Test
+	public void given3Numbers_AddedToLinkedList_SearchDelete() {
+		MyNode<Integer> firstNode = new MyNode<Integer>(56);
+		MyNode<Integer> secondNode = new MyNode<Integer>(30);
+		MyNode<Integer> thirdNode = new MyNode<Integer>(70);
+		MyLinkedList myLinkedList = new MyLinkedList();
+		myLinkedList.append(firstNode);
+		myLinkedList.append(secondNode);
+		myLinkedList.append(thirdNode);
+		myLinkedList.searchDelete(40);
+		myLinkedList.printNodes();
+		boolean result = myLinkedList.head.equals(firstNode) && myLinkedList.head.getNext().equals(secondNode) && myLinkedList.tail.equals(thirdNode);
+		Assert.assertTrue(result);
+	} 
+	
 }
