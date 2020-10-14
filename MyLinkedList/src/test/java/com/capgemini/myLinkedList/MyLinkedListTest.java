@@ -7,16 +7,31 @@ public class MyLinkedListTest {
 
 	@Test
 	public void given3Numbers_WhenAddedToLinkedList_ShouldBeAddedToTop() {
-		MyNode<Integer> myFirstNode = new MyNode<Integer>(70);
-		MyNode<Integer> mySecondNode = new MyNode<Integer>(30);
-		MyNode<Integer> myThirdNode = new MyNode<Integer>(56);
+		MyNode<Integer> firstNode = new MyNode<Integer>(70);
+		MyNode<Integer> secondNode = new MyNode<Integer>(30);
+		MyNode<Integer> thirdNode = new MyNode<Integer>(56);
 		MyLinkedList myLinkedList = new MyLinkedList();
-		myLinkedList.add(myFirstNode);
-		myLinkedList.add(mySecondNode);
-		myLinkedList.add(myThirdNode);
+		myLinkedList.add(firstNode);
+		myLinkedList.add(secondNode);
+		myLinkedList.add(thirdNode);
 		myLinkedList.printNodes();
-		boolean result = myLinkedList.head.equals(myThirdNode) && myLinkedList.head.getNext().equals(mySecondNode)
-				&& myLinkedList.tail.equals(myFirstNode);
+		boolean result = myLinkedList.head.equals(thirdNode) && myLinkedList.head.getNext().equals(secondNode)
+				&& myLinkedList.tail.equals(firstNode);
+		Assert.assertTrue(result);
+	}
+
+	@Test
+	public void given3Numbers_WhenAddedToLinkedList_ShouldBeAddedAtTail() {
+		MyNode<Integer> firstNode = new MyNode<Integer>(56);
+		MyNode<Integer> secondNode = new MyNode<Integer>(30);
+		MyNode<Integer> thirdNode = new MyNode<Integer>(70);
+		MyLinkedList myLinkedList = new MyLinkedList();
+		myLinkedList.append(firstNode);
+		myLinkedList.append(secondNode);
+		myLinkedList.append(thirdNode);
+		myLinkedList.printNodes();
+		boolean result = myLinkedList.head.equals(firstNode) && myLinkedList.head.getNext().equals(secondNode)
+				&& myLinkedList.tail.equals(thirdNode);
 		Assert.assertTrue(result);
 	}
 }
