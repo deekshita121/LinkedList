@@ -36,17 +36,19 @@ public class MyLinkedListTest {
 	}
 	
 	@Test
-	public void given3Numbers_WhenAddedToLinkedList_lastShouldBeAddedAtBetween() {
+	public void given3Numbers_AddedToLinkedList_PopTheFirstElement() {
 		MyNode<Integer> firstNode = new MyNode<Integer>(56);
-		MyNode<Integer> secondNode = new MyNode<Integer>(70);
-		MyNode<Integer> thirdNode = new MyNode<Integer>(30);
+		MyNode<Integer> secondNode = new MyNode<Integer>(30);
+		MyNode<Integer> thirdNode = new MyNode<Integer>(70);
 		MyLinkedList myLinkedList = new MyLinkedList();
 		myLinkedList.append(firstNode);
 		myLinkedList.append(secondNode);
-		myLinkedList.insertAt(firstNode,thirdNode);
+		myLinkedList.append(thirdNode);
+		myLinkedList.pop(firstNode);
 		myLinkedList.printNodes();
-		boolean result = myLinkedList.head.equals(firstNode) && myLinkedList.head.getNext().equals(thirdNode)
-				&& myLinkedList.tail.equals(secondNode);
+		boolean result = myLinkedList.head.equals(secondNode) && myLinkedList.tail.equals(thirdNode);
 		Assert.assertTrue(result);
 	}
+	
+	
 }
