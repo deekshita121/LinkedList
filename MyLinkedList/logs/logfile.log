@@ -1,0 +1,3 @@
+INFO  | 2020-10-13 21:44:49 | [main] myLinkedList.App (App.java:15) - Hello World!
+DEBUG | 2020-10-14 07:22:00 | [main] myLinkedList.MyNode (MyNode.java:16) - Welcome
+INFO  | 2020-10-14 07:22:39 | [main] myLinkedList.MyNode (MyNode.java:16) - Welcome
