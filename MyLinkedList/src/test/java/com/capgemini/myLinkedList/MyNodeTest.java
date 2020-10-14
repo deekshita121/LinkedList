@@ -1,20 +1,21 @@
 package com.capgemini.myLinkedList;
 
-import static org.junit.Assert.assertTrue;
-
+import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
+
 public class MyNodeTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+   
     @Test
-    public void shouldAnswerWithTrue()
+    public void given3Numbers_WhenLinked_ShouldPassTrue()
     {
-        assertTrue( true );
+    	MyNode<Integer> firstNode = new MyNode<>(56);
+        MyNode<Integer> secondNode = new MyNode<>(70);
+        MyNode<Integer> thirdNode = new MyNode<>(30);
+        firstNode.setNext(secondNode);
+        secondNode.setNext(thirdNode);
+        boolean result = (firstNode.getNext().equals(secondNode) && secondNode.getNext().equals(thirdNode));
+        Assert.assertTrue(result);
     }
 }
