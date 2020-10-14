@@ -14,3 +14,68 @@ INFO  | 2020-10-14 12:24:10 | [main] myLinkedList.MyLinkedList (MyLinkedList.jav
 INFO  | 2020-10-14 12:36:26 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - My Nodes: 56->30->70
 INFO  | 2020-10-14 12:36:26 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - My Nodes: 30->70
 INFO  | 2020-10-14 12:36:26 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:56:36 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 12:56:36 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:56:36 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 12:56:36 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:58:47 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 12:58:47 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:58:47 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 12:58:47 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:59:41 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30
+INFO  | 2020-10-14 12:59:41 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 12:59:41 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 12:59:41 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:00:11 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30
+INFO  | 2020-10-14 13:00:11 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:00:11 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 30->70
+INFO  | 2020-10-14 13:00:11 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:73) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - com.capgemini.myLinkedList.MyNode@7d9e8ef7
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 56->30
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - com.capgemini.myLinkedList.MyNode@35645047
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 30->70
+INFO  | 2020-10-14 13:03:27 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:04:23 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:59) - 70
+INFO  | 2020-10-14 13:04:23 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:04:23 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 30->70
+INFO  | 2020-10-14 13:04:23 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:74) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:07:50 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - 70
+INFO  | 2020-10-14 13:07:50 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:07:50 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 30->70
+INFO  | 2020-10-14 13:07:50 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - com.capgemini.myLinkedList.MyNode@7d9e8ef7
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - com.capgemini.myLinkedList.MyNode@35645047
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 30->70
+INFO  | 2020-10-14 13:10:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:12:18 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - 70
+INFO  | 2020-10-14 13:12:18 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:12:18 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 30->70
+INFO  | 2020-10-14 13:12:18 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:16:19 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - 70
+INFO  | 2020-10-14 13:16:19 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:16:19 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 30->70
+INFO  | 2020-10-14 13:16:19 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:75) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:24:43 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:60) - 70
+INFO  | 2020-10-14 13:29:24 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:70) - My Nodes: 56->30
+INFO  | 2020-10-14 13:31:24 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:69) - My Nodes: 56->30
+INFO  | 2020-10-14 13:34:52 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:69) - My Nodes: 56->30
+INFO  | 2020-10-14 13:34:52 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:69) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:34:52 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:69) - My Nodes: 30->70
+INFO  | 2020-10-14 13:34:52 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:69) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:40:29 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30
+INFO  | 2020-10-14 13:40:29 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:40:29 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 30->70
+INFO  | 2020-10-14 13:40:29 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:40:58 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30
+INFO  | 2020-10-14 13:41:35 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30
+INFO  | 2020-10-14 13:41:35 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:42:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30
+INFO  | 2020-10-14 13:42:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:42:25 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:42:56 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30
+INFO  | 2020-10-14 13:42:56 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
+INFO  | 2020-10-14 13:42:56 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 30->70
+INFO  | 2020-10-14 13:42:56 | [main] myLinkedList.MyLinkedList (MyLinkedList.java:68) - My Nodes: 56->30->70
