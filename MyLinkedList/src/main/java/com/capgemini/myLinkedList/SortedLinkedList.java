@@ -13,7 +13,7 @@ public class SortedLinkedList {
 		this.head = null;
 		this.tail = null;
 	}
-	
+
 	public void append(INode newNode) {
 		if (this.tail == null)
 			this.tail = newNode;
@@ -23,11 +23,11 @@ public class SortedLinkedList {
 			this.tail.setNext(newNode);
 			this.tail = newNode;
 		}
-		
+		sort();
 	}
-	
+
 	public void printNodes() {
-	
+
 		StringBuffer nodes = new StringBuffer("My Nodes: ");
 		INode tempNode = head;
 		while (tempNode.getNext() != null) {
@@ -38,46 +38,38 @@ public class SortedLinkedList {
 		nodes.append(tempNode.getKey());
 		log.info(nodes);
 	}
-	
+
 	public void sort() {
-	
+
 		INode current_Node = head;
 		INode prev_Node = null;
 		INode next_Node = head.getNext();
-		while(next_Node!=null)
-		{
-			if((int) current_Node.getKey() > (int) next_Node.getKey()) {
-				if(next_Node.getNext()==null && prev_Node == null) {
-					current_Node.setNext(null);
-					next_Node.setNext(current_Node);
-					break;
-				}
-				
-				else if(prev_Node==null) {
+		while (next_Node != null) {
+			if ((int) current_Node.getKey() > (int) next_Node.getKey()) {
+
+				if (prev_Node == null) {
 					INode temp = next_Node.getNext();
 					head = next_Node;
 					next_Node.setNext(head);
 					head.setNext(temp);
 					break;
-				}
-				else {
+				} else {
 					INode temp = next_Node.getNext();
 					prev_Node.setNext(next_Node);
 					next_Node.setNext(current_Node);
 					current_Node.setNext(temp);
-					
+
 				}
 				prev_Node = next_Node;
 				current_Node = next_Node.getNext();
-			    next_Node = current_Node.getNext();
-				
-			}
-			else {
+				next_Node = current_Node.getNext();
+
+			} else {
 				prev_Node = current_Node;
 				current_Node = next_Node;
 				next_Node = next_Node.getNext();
 			}
 		}
 	}
-	
+
 }
